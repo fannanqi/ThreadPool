@@ -1,7 +1,7 @@
 /*
  * @Author: FanNanqi
  * @Date: 2023-09-23 10:13:57
- * @LastEditTime: 2023-09-28 18:02:20
+ * @LastEditTime: 2024-01-12 21:08:40
  * @FilePath: /vsgcc/libevent/threadPool/XThreadPool.h
  * @Description:
  *
@@ -15,7 +15,7 @@ class XThread;
 class XThreadPool
 {
 private:
-    /* data */
+    // 在private中的构造函数的目的：不允许new，符合单例模式
     XThreadPool(/* args */);
     int threadCount = 0;
     int lastThread = -1;

@@ -3,7 +3,7 @@
  * @Date: 2023-09-23 10:59:44
  * @LastEditTime: 2023-09-28 10:43:37
  * @FilePath: /vsgcc/libevent/threadPool/XThread.h
- * @Description:
+ * @Description:每个线程一个event_base
  *
  */
 #pragma once
